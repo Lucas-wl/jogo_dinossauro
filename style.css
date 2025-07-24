@@ -9,6 +9,10 @@
     background-color: darkred;
     height: 45px;
     width: 45px;
+    position; absolute;
+    bottom; 0;
+    right; 0;
+    
 }
 
 @keyframes Jump{ 
@@ -19,7 +23,7 @@
 
 #dino{
     position: absolute;
-    bottom: 1;
+    bottom: 0;
     height: 100px;
     width: 100px;
 }
