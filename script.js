@@ -1,15 +1,15 @@
-const dino = document.getElementById("dino")
-const obstaculo = document.getElementById("obstaculo")
-let isJumping = false
-let speed = 7 
-const acceleration = 10
-const interval = 15
-const gameAreaWidth = document.getElementById("gameArea").offsetWidth 
+const dino = document.getElementById("dino");
+const obstaculo = document.getElementById("obstaculo");
+let isJumping = false;
+let speed = 7;
+const acceleration = 10;
+const interval = 15;
+const gameAreaWidth = document.getElementById("gameArea").offsetWidth;
 
 function jump() {
     if (isJumping) return; 
-    isJumping = true 
-    dino.style.animation = "jump 0.5s ease-out"
+    isJumping = true; 
+    dino.style.animation = "jump 0.5s ease-out";
     setTimeout(() => {
         dino.style.animation = "";
         isJumping = false;
