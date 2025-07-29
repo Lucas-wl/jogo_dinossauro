@@ -1,10 +1,10 @@
 const dino = document.getElementById("dino");
 const obstaculo = document.getElementById("obstaculo");
 let isJumping = false;
-let speed = 7;
+let speed = 7; 
 const acceleration = 10;
 const interval = 15;
-const gameAreaWidth = document.getElementById("gameArea").offsetWidth;
+const gameAreaWidth = document.getElementById("gameArea").offsetWidth; 
 
 function jump() {
     if (isJumping) return; 
@@ -55,5 +55,5 @@ function increaseSpeed(){
     speed += acceleration;
 }
 
-const speedInterval = setInterval (increaseSpeed ,30000); 
+const speedInterval = setInterval (increaseSpeed, 30000); 
 const gameInterval = setInterval (moveObstaculo, interval); 
