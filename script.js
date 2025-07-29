@@ -16,6 +16,12 @@ function jump() {
 }, 500);
 }
 
+document.addEventListener("keydown",function(event){
+    if (event.code==="Space"){
+        jump();
+    }
+});
+
 function moveObstaculo(){
     let obstaculoPos = Obscatulo.offsetLeft; 
     obstaculo.style.left = obstaculoPos - speed + "px"; 
