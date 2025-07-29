@@ -1,6 +1,6 @@
 #gameArea{
     background-color: darkgrey;
-    height: 800px;
+    height: 1000px;
     width: 1500px; 
     border: 3px solid; 
 }
@@ -17,7 +17,7 @@
 
 @keyframes jump{ 
     0% {bottom: 0px;}
-    50% {bottom: 150px;}
+    50% {bottom: 200px;}
     100% {bottom: 0px;}
 }
 
