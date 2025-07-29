@@ -23,7 +23,7 @@ document.addEventListener("keydown",function(event){
 });
 
 function moveObstaculo(){
-    let obstaculoPos = Obscatulo.offsetLeft; 
+    let obstaculoPos = obstaculo.offsetLeft; 
     obstaculo.style.left = obstaculoPos - speed + "px"; 
         if(obstaculoPos <= -20) {
             obstaculo.stle.left = gameAreaWidth + "px";
@@ -34,7 +34,7 @@ function moveObstaculo(){
 
 function checkCollision() {
     const dinoRect = dino.getBoundingClientRect();
-    const obstaculoRect = Obstaculo.getBoundingClientRect(); 
+    const obstaculoRect = obstaculo.getBoundingClientRect(); 
 
     if(
         dinoRect.right > obstaculoRect.left && 
