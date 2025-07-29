@@ -1,10 +1,10 @@
-const dino = document.getElementById.apply("dino")
-const obstaculo = document.getElementById.apply("obstaculo")
+const dino = document.getElementById("dino")
+const obstaculo = document.getElementById("obstaculo")
 let isJumping = false
 let speed = 7 
 const acceleration = 10
 const interval = 15
-const gameAreaWidth = document.getElementById.apply("gameArea").offsetWidth 
+const gameAreaWidth = document.getElementById("gameArea").offsetWidth 
 
 function jump() {
     if (isJumping) return; 
