@@ -26,7 +26,7 @@ function moveObstaculo(){
     let obstaculoPos = obstaculo.offsetLeft; 
     obstaculo.style.left = obstaculoPos - speed + "px"; 
         if(obstaculoPos <= -20) {
-            obstaculo.stle.left = gameAreaWidth + "px";
+            obstaculo.style.left = gameAreaWidth + "px";
         }
     checkCollision();
 
